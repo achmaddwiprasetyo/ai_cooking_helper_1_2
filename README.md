@@ -103,11 +103,12 @@ lib/
 ---
 
 ### 💡 Pengembang
-Kelompok 10:<br>
+Kelompok 8:<br>
 1. Achmad Dwi Prasetyo - 220401010168
 2. Jovita Kusuma - 220401010270
 3. Jeki Hendrian - 220401010191
-4. Harry Kusuma Bhakti - 240401020171
+4. Ikram - 240401020139
+5. Harry Kusuma Bhakti - 240401020171
 
 🎓 Universitas Siber Asia - S1 PJJ Informatika 2026
 
@@ -116,6 +117,6 @@ Kelompok 10:<br>
 ### ⚖️ Lisensi
 
 MIT License © 2025<br>
-Created by Kelompok 10
+Created by Kelompok 8
 
 
