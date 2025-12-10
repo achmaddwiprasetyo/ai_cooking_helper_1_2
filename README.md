@@ -1,16 +1,120 @@
-# ai_cooking_helper
+# 🍳 AI Cooking Helper Ver. 1.2.0
+Aplikasi Flutter berbasis AI untuk membantu memasak, membuat rekomendasi resep, dan mengelola bahan dapur.
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Linux%20%7C%20Windows-lightgrey)
+![Gemini AI](https://img.shields.io/badge/AI-Gemini-blueviolet)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Deskripsi
+**AI Cooking Helper** adalah aplikasi Flutter yang memanfaatkan teknologi AI (Gemini / OpenAI / LLM lain) untuk memberikan rekomendasi resep berdasarkan bahan yang tersedia. Pengguna cukup memasukkan daftar bahan atau mengunggah foto, dan AI akan menghasilkan resep lengkap beserta langkah-langkah memasaknya.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Fitur Utama
+- 🔍 **Rekomendasi Resep Otomatis** berdasarkan daftar bahan.
+- 📸 **Deteksi Bahan dari Foto** (opsional).
+- 🧾 **Generator Resep Instan** berdasarkan prompt pengguna.
+- 🥫 **Manajemen Bahan Dapur** (stok, expired, kategori).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Teknologi yang Digunakan
+| Teknologi | Fungsi |
+|----------|--------|
+| **Flutter 3.x** | Framework UI |
+| **Dart** | Logika aplikasi |
+| **Gemini / OpenAI API** | AI untuk resep & analisis |
+| **Provider / Riverpod** | State management |
+| **Dio / HTTP** | API request |
+| **Image Picker** | Upload gambar |
+
+---
+
+## 📦 Instalasi & Setup
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/username/ai-cooking-helper.git
+cd ai-cooking-helper
+```
+
+
+## 🚀 Cara Menjalankan Project
+
+### 2️⃣ Install Dependency
+```bash
+flutter pub get
+```
+
+
+### 3️⃣ Setup API Key
+```bash
+lib/utils/ai_service.dart
+```
+
+Ganti:
+```bash
+const String API_KEY = 'API KEY';        # API KEY ganti dengan API KEY dari AI Gemini
+```
+
+
+### 4️⃣ Jalankan Aplikasi
+```bash
+flutter run
+```
+---
+
+### 🧠 Contoh Output AI
+Input:
+```makefile
+Bahan: telur, kecap, bawang putih
+```
+
+Output:
+```markdown
+🍳 Resep: Telur Kecap Sederhana 
+👨‍🍳 Langkah:
+1. Tumis bawang putih hingga harum
+2. Masukkan telur lalu orak-arik
+3. Tambahkan kecap dan sedikit air
+4. Masak hingga meresap
+```
+
+
+### 📁 Struktur Folder
+
+```bash
+lib/
+├── main.dart                     
+├── utils/
+│   └── ai_service.dart          
+├── page/
+│   └── home_page.dart            
+└── fragment/
+    ├── generate_image.dart       
+    └── generate_text.dart      
+```
+
+
+---
+
+### 💡 Pengembang
+Kelompok 10:<br>
+1. Achmad Dwi Prasetyo - 220401010168
+2. Jovita Kusuma - 220401010270
+3. Jeki Hendrian - 220401010191
+4. Harry Kusuma Bhakti - 240401020171
+
+🎓 Universitas Siber Asia - S1 PJJ Informatika 2026
+
+---
+
+### ⚖️ Lisensi
+
+MIT License © 2025<br>
+Created by Kelompok 10
+
+
