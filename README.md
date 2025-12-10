@@ -94,6 +94,7 @@ lib/
 ├── page/
 │   └── home_page.dart            
 └── fragment/
+    ├── about.dart  
     ├── generate_image.dart       
     └── generate_text.dart      
 ```
