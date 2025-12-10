@@ -1,6 +1,7 @@
 # 🍳 AI Cooking Helper Ver. 1.2.0
 Aplikasi Flutter berbasis AI untuk membantu memasak, membuat rekomendasi resep, dan mengelola bahan dapur.
 
+![AI Cooking Helper](https://img.shields.io/badge/AI_Cooking_Helper-Ver.1.2.0-blue?logo=google)
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Linux%20%7C%20Windows-lightgrey)
